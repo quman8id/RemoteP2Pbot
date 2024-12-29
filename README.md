@@ -23,7 +23,7 @@ pip install pyTelegramBotAPI pyautogui pyscreeze json http.client urllib.parse t
 ## Setup
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/quman8id/RemoteP2Pbot
+git clone https://github.com/quman8id/RemoteP2Pbot.git
 ```
 2. **Install dependencies:** See "Prerequisites" above.
 
