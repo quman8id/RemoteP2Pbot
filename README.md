@@ -6,7 +6,7 @@ This is a Telegram bot that allows your phone to communicate with your computer.
 * **Screenshot:** Captures and sends a screenshot of your screen.
 * **CMD Commands:** Executes commands in the command prompt.
 * **Win+R Execution:** Runs programs or opens files via the Win+R dialog.
-* **Resource Monitoring:** Monitors CPU and RAM usage and sends updates to Telegram.  You can specify the update interval.
+* **Resource Monitoring:** Monitors CPU, RAM etc. usage and sends updates to Telegram.  You can specify the update interval.
 * **Hotkey Sending:** Sends keystrokes, including combinations with modifier keys (Ctrl, Shift, Alt, Win). Uses an interactive keyboard within Telegram.
 * **Interactive Menu:** Provides a user-friendly menu system for navigating the bot's features.
 
@@ -14,7 +14,7 @@ This is a Telegram bot that allows your phone to communicate with your computer.
 
 * **Python 3.x:** Make sure you have Python 3 installed on your system.
 * **OpenHardwareMonitor**: You need to have [Open Hardware Monitor](https://openhardwaremonitor.org/downloads/) with the remote web server running. The bot connects to it locally (port 8085 by default).
-* **Telegram Bot Token**: You'll need to create a Telegram bot in [@BotFather](https://t.me/botfather) and obtain its token. Replace `"YOUR_BOT_TOKEN"` **(line 20)** in the script with your actual token
+* **Telegram Bot Token**: You'll need to create a Telegram bot in [@BotFather](https://t.me/botfather) and obtain its token. Replace `"YOUR_BOT_TOKEN"` **(line 15)** in the script with your actual token
 * **Required Libraries:** Install the necessary libraries using pip:
 ```bash
 pip install pyTelegramBotAPI pyautogui pyscreeze json http.client urllib.parse threading string
@@ -28,11 +28,11 @@ git clone https://github.com/quman8id/RemoteP2Pbot.git
 2. **Install dependencies:** See "Prerequisites" above.
 
 3. **Configure the bot:**
-Replace "YOUR_BOT_TOKEN" at line 20 with your bot's token.
+Replace "YOUR_BOT_TOKEN" at line 15 with your bot's token.
 
 4. **Modify the screenshot_path** variable if you want to save screenshots to a different location.
 
-5. **Adjust the sensor IDs** in `get_hardware_info_string` **(line 184)** to monitor different hardware components. Get them from OHM's JSON file.
+5. **Adjust the sensor IDs** in `SENSOR_IDS` **(line 14)** to monitor different hardware components. Get them from OHM's JSON file.
 
 6. **Run the script:**
 ```bash
