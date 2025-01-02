@@ -12,7 +12,7 @@ import pyscreeze
 
 # --- Constants and Global Variables ---
 SENSOR_IDS = [1, 2]   #<====  Replace 1, 2 with your id !!!
-BOT_TOKEN = "8182220361:AAG3lQygsvIZhdS4FGzDdHqKufSohzxIdcE"  # Replace with your bot token !!!
+BOT_TOKEN = ""  # Replace with your bot token !!!
 bot = telebot.TeleBot(BOT_TOKEN)
 
 KEY_MAP = {  # Mapping key names to PyAutoGUI codes
